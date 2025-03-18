@@ -1,0 +1,157 @@
+
+
+/*-------------------------------------------------------- Hem ----------------------------------------------*/
+
+body {
+    font-family: Copperplate   , Papyrus , fantasy;
+    margin: 0px;
+    
+    
+}
+
+a:link { 
+   text-decoration: none; 
+} 
+
+.heder-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-shadow: 3px 3px 5px #4b4b4c;
+    font-size: larger;
+    
+}
+
+    
+.text1 {
+    
+    margin:30px;
+    
+    font-size: larger;
+    
+
+}
+
+.text2 {
+    
+    margin:30px;
+    margin-top: 70px;
+    text-shadow: 3px 3px 5px #4c4b4b;
+
+}
+
+.video-container {
+    margin: 0px;
+
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(to bottom, #FFFFFF, #a8c6df 50%, #FFFFFF), 
+                linear-gradient(to top, #FFFFFF, #a5a4a4 50%, #FFFFFF);
+    display: flex;
+    align-items: center;
+    
+    
+  
+}
+
+.list {
+    font-size:x-large;
+    display: flex;
+    justify-content: center;
+    justify-content:space-evenly;
+    
+  
+
+    background: linear-gradient(to top, #FFFFFF, #ebebef 50%, #FFFFFF);
+    
+   
+
+
+
+}
+
+a:hover {
+    background: linear-gradient(to top, #FFFFFF, #e3e3e6 50%, #FFFFFF);
+    
+  
+}
+
+
+/* Table 1 */
+
+table.tb-style1 , table.tb-style1 th ,table.tb-style1 td{
+border: 2px solid rgb(0, 0, 0);
+border-collapse: collapse;
+font-size: large;
+text-align: left;
+margin-left: auto;
+margin-right: auto;
+box-shadow:  2px 2px #000000;
+font-weight: bold;
+
+
+}
+
+table.tb-style1 tr:nth-child(even) {
+background-color: rgba(18, 109, 148, 0.4);
+
+}
+
+/*end Table 1 */
+
+
+
+/* Table 2 */
+
+table.tb-style2 , table.tb-style2 th ,table.tb-style2 td{
+border: 2px solid rgb(5, 4, 4);
+border-collapse: collapse;
+font-size: large;
+text-align: left;
+margin-left: auto;
+margin-right: auto;
+font-weight: bold;
+box-shadow:  2px 2px #000000;
+}
+
+table.tb-style2 tr:nth-child(even) {
+background-color:  rgba(18, 109, 148, 0.4);
+
+}
+
+
+/*end Table 2 */
+
+
+footer{
+text-align: center;
+font-size:xx-small;
+margin-top: 20%;
+}
+
+
+
+
+/*-------------------------------------------------------- img1 ----------------------------------------------*/
+
+
+
+.img-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 800px;
+    margin: auto;
+    
+}
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.row img {
+    width: 45%;
+    height: auto;
+    border-radius: 20px;
+}
